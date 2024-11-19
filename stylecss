@@ -1,0 +1,26 @@
+.test {
+width: 75px;
+height: 75px; 
+border-radius: 50px;
+position: relative;
+-webkit-animation: iliketomoveit 5s infinite;
+animation: iliketomoveit 5s infinite;
+}
+@-webkit-keyframes iliketomoveit { 
+0% {left: 0px;} 
+25% {left: 400px; background: red;}
+75% {left: 200px;}
+100% {left: 0px; background: green;}
+}
+@keyframes iliketomoveit {
+0% {left: 0px;}
+25% {left: 400px; background: red;}
+75% {left: 200px;}
+100% {left: 0px; background: green;}
+}
+</style>
+</head>
+<body>
+<div class = "test"></div>
+</body>
+</html>
